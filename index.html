@@ -13,7 +13,7 @@
 <body>
 
 <!-- Navigaatio -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Bella Tavola</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,7 +68,7 @@
   </div>
 </div>
 
-<!-- Väliotsikko ennen menua -->
+<!-- Väliotsikko -->
 <div class="custom-container text-container">
   <h2 class="text-center">
     Elämyksiä Italiasta suoraan pöytääsi! Meidän ruokalistamme vie sinut herkulliselle matkalle, 
@@ -76,7 +76,6 @@
     tuoreista, paikallisesti hankituista raaka-aineista ja nauti aidosta italialaisesta tunnelmasta! 
   </h2>
 </div>
-
 
 <!-- Kuvakaruselli / menukuvat -->
 <div class="d-flex justify-content-center">
@@ -127,7 +126,6 @@
     </button>
   </div>
 </div>
-
 
 <!-- Menu: alkuruoat -->
 <h3 class="text-center my-4" id="alkuruoat">Alkuruoat</h3>
@@ -182,54 +180,54 @@
 </div>
 
 <!-- Menu: pääruoat -->
-<h3 class="text-center my-4" id="paaruoat">Pääruoat</h3>
+<h3 class="text-center my-3" id="paaruoat">Pääruoat</h3>
 <p class=text-center>
-  Tekstiä
+  Pääruokamme vaihtelevat kausittain. Tervetuloa maistelemaan!
 </p>
 <div class="container-fluid">
   <div class="row justify-content-center">
     <div class="col-12 col-lg-2 mb-3">
       <div class="card d-flex flex-column h-100">
-        <img src="maanantai.jpg" class="card-img-top" alt="...">
+        <img src="pics/lasagne.jpg" class="card-img-top" alt="Kasvislasagne">
         <div class="card-body">
-          <h5 class="card-title">Maanantai</h5>
-          <p class="card-text">Pinaatti-vuohenjuustolasagne</p>
+          <h5 class="card-title">Lasagne</h5>
+          <p class="card-text">Perinteinen italialainen lasange tai pinaatti-vuohenjuustolasagne<br>— 16,90€</p>
         </div>
       </div>
     </div>
     <div class="col-12 col-lg-2 mb-3">
       <div class="card d-flex flex-column h-100">
-        <img src="tiistai.jpg" class="card-img-top" alt="...">
+        <img src="pics/salaatti2.jpg" class="card-img-top" alt="Vuohenjuustosalaatti">
         <div class="card-body">
-          <h5 class="card-title">Tiistai</h5>
-          <p class="card-text">Talon lihapullapasta</p>
+          <h5 class="card-title">Salaatti</h5>
+          <p class="card-text">Vuohenjuustosalaatti, kanasalaatti tai lohisalaatti<br>— 15,90€</p>
         </div>
       </div>
     </div>
     <div class="col-12 col-lg-2 mb-3">
       <div class="card d-flex flex-column h-100">
-        <img src="keskiviikko.jpg" class="card-img-top" alt="...">
+        <img src="pics/risotto.jpg" class="card-img-top" alt="Sienirisotto">
         <div class="card-body">
-          <h5 class="card-title">Keskiviikko</h5>
-          <p class="card-text">Kesäkurpitsapitsa</p>
+          <h5 class="card-title">Risotto</h5>
+          <p class="card-text">Sienirisotto, sitruunarisotto tai rapurisotto<br>— 17,90€</p>
         </div>
       </div>
     </div>
     <div class="col-12 col-lg-2 mb-3">
       <div class="card d-flex flex-column h-100">
-        <img src="torstai.jpg" class="card-img-top" alt="...">
+        <img src="pics/pizza.jpg" class="card-img-top" alt="Pitsaa">
         <div class="card-body">
-          <h5 class="card-title">Torstai</h5>
-          <p class="card-text">Sienirisotto</p>
+          <h5 class="card-title">Pizza</h5>
+          <p class="card-text">Parmankinkku-mozzarella tai feta-kesäkurpitsa-oliivipizza<br>— 17,90€</p>
         </div>
       </div>
     </div>
     <div class="col-12 col-lg-2 mb-3">
       <div class="card d-flex flex-column h-100">
-        <img src="perjantai.jpg" class="card-img-top" alt="...">
+        <img src="pics/pestopasta.jpg" class="card-img-top" alt="Pestopasta">
         <div class="card-body">
-          <h5 class="card-title">Perjantai</h5>
-          <p class="card-text">Pestopasta</p>
+          <h5 class="card-title">Pasta</h5>
+          <p class="card-text">Pasta primavera, bolognese tai carbonara<br>— 17,90€</p>
         </div>
       </div>
     </div>
@@ -385,11 +383,11 @@
   </div>
 </div>
 
-<!-- yhteystiedot -->
+<!-- Yhteystiedot -->
 <div class="container contact-container">
   <h3 class="text-center" id="yhteydenotto">Yhteystiedot</h2>
   <div class="row">
-    <div class="col-4">
+    <div class="col-sm-4">
       <h4 class="text-center">
         Osoite
       </h4>
@@ -397,7 +395,7 @@
         Aleksanterinkatu 15, 00100 Helsinki
       </p>
     </div>
-    <div class="col-4">
+    <div class="col-sm-4">
       <h4 class="text-center">
         Aukioloajat
       </h4>
@@ -405,7 +403,7 @@
         arkisin 10:00-20:00, lauantaisin 12:00-20:00, sunnuntaisin suljettu
       </p>
     </div>
-    <div class="col-4">
+    <div class="col-sm-4">
       <h4 class="text-center">
         Sosiaalinen media
       </h4>
@@ -459,6 +457,5 @@
     </tbody>
   </table>
 </div>
-
 </body>
 </html>

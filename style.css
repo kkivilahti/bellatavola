@@ -4,7 +4,6 @@
 
 body {
     background-color: #234737;
-    padding-top: 68px;
 }
 p {
     color: #e0e0e0;
@@ -25,15 +24,16 @@ a:hover {
     background-color: #e0e0e0 !important;
     border-bottom: #c2c2c2 2px solid;
 }
-.navbar-brand { /* ravintolan nimi navissa */
-    font-family: "Zeyada";
-    font-size: 1.7rem;
-}
 .nav-link:hover {
     color: #679781;
 }
 .dropdown-item:focus {
     background-color: #679781;
+}
+/* ravintolan nimi navissa */
+.navbar-brand { 
+    font-family: "Zeyada";
+    font-size: 1.7rem;
 }
 
 /* etusivun esittelytekstien asettelut */ 
@@ -53,7 +53,7 @@ h1 {
     padding-right: 2%;
 }
 
-/* väliotsikko kuvakarusellin yläpuolella */
+/* väliotsikko */
 .text-container {
     margin-left: 5%;
     margin-right: 5%;
@@ -65,6 +65,7 @@ h2 {
     font-size: 32px;
     color: #e0e0e0;
 }
+
 /* kuvakarusellin asetukset */
 .carousel {
     width: 100%; 
@@ -112,7 +113,7 @@ h3 {
     color: #e0e0e0;
 }
 
-/* jotta otsikko ei jää navin alle linkkiä painaessa: */
+/* jotta otsikko ei jää navin alle: */
 #alkuruoat {
     scroll-margin-top: 70px; 
 }
