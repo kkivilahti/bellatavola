@@ -233,10 +233,10 @@ p {
     padding-left: 2%;
 }
 .lead {
-    margin-bottom: 7%;
+    margin-bottom: 4%;
 }
 .text-container {
-    margin-top: 7%;
+    margin-top: 5%;
 }
 .carousel {
     display: none;
@@ -245,6 +245,6 @@ p {
     width: 95%;
 }
 .contact-container p, .social-links {
-    margin-bottom: 5%;
+    margin-bottom: 6%;
 }
 }
