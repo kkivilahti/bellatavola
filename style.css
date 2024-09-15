@@ -193,7 +193,7 @@ h2 {
     font-size: 18px;
 }
 p {
-    font-size: 15px; 
+    font-size: 16px; 
     padding-left: 2%;
 }
 .carousel-caption h4 {
@@ -201,6 +201,9 @@ p {
 }
 .carousel-caption p {
     font-size: 18px;
+}
+.card-text {
+    font-size: 14px;
 }
 }
 
@@ -214,15 +217,33 @@ h1 {
 h2 {
     font-size: 20px;
 }
+h3 {
+    font-size: 27px;
+}
+h4 {
+    font-size: 22px;
+}
 .span1 {
     font-size: 35px;
     padding-left: 2%;
 }
 p {
-    font-size: 15px;
+    font-size: 16px;
     padding-left: 2%;
+}
+.lead {
+    margin-bottom: 7%;
+}
+.text-container {
+    margin-top: 7%;
+}
+.carousel {
+    display: none;
 }
 .table {
     width: 95%;
+}
+.contact-container p, .social-links {
+    margin-bottom: 5%;
 }
 }
