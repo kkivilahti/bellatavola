@@ -1,2 +1,1 @@
-Bootstrap-oppimistehtävä Haaga-Helian Digitekniikat-kurssille:
-ravintolan verkkosivut
+Ravintolan verkkosivut -- Bootstrap-oppimistehtävä Haaga-Helian Digitekniikat-kurssilla
